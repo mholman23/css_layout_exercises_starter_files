@@ -1,1 +1,56 @@
 
+
+
+nav {
+	background-color: grey;
+	height: 60px;
+	position: fixed;
+	width: 100%;
+	padding-left: 20px;
+	padding-top: 10px;
+}
+
+nav img {
+	border-radius: 50%;
+	height: 40px;
+	width: 40px;
+	border: black 1px solid;
+	display: inline-block;
+	position: absolute;
+	margin-right: 60px;
+}
+
+ul li{
+	float: left;
+	padding-left: 10px;
+ 	list-style: none;
+}
+
+.greenbox {
+	width: 600px;
+	height: 300px;
+	border: 10px green dotted;
+	position: absolute;
+	margin: auto;
+    top: 50;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+
+.catdog {
+	height: 200px;
+	width: 200px;
+}
+
+.cat {
+	bottom: 200px;
+	left: -100px;
+	position: absolute;
+}
+
+.dog {
+	top: 200px;
+	right: -100px;
+	position: absolute;
+}

@@ -10,3 +10,20 @@ main {
   margin-left: auto;
   margin-right: auto;
 }
+
+img {
+	height: 300px;
+	width: 300px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+.topimg {
+	float:left;
+	margin-right: 10px;
+}
+
+.bottomimg {
+	float: right;
+	margin-left: 10px;
+}
